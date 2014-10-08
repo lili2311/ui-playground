@@ -1,0 +1,42 @@
+@import url('http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700,400italic');
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background:#F6F6F6;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#B3DEA6;
+}
+h1 {
+  padding:1em;
+  margin:0;
+  font-family:Archivo Narrow;
+  text-align:center;
+  color:#395B5E;
+}
+p {
+  padding:1em;
+  text-align:center;
+  color:#fcfcfc;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   min-height:5em;   
+   background:#3c3c3c;
+}
+
+<!--[if lte IE 6]>
+#container {
+   height:100%;
+}
+<![endif]-->
