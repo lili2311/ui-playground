@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Super Simple Form Design</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+	  <div id="form-container">
+	  <form method="POST" action="http://api.formspree.com/your@email.com">
+	    <label for="name-input">Name</label>
+	    <input id="name-input" name="field" maxlength="25" type="text" autocomplete="on" placeholder="name"></input>
+	    <label for="email-input">Email</label>
+	    <input id="email-input" name="field" maxlength="25" type="text" autocomplete="on" placeholder="email"></input>
+	    <textarea name="message-input" rows="3"></textarea>    
+	    <button id="submit-form" type="submit">Save</button>
+	  </form>
+	</div>
+  </body>
+</html>
